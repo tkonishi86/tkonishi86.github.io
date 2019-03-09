@@ -1,0 +1,125 @@
+.logo {
+    font-weight: bold;
+    font-family: 'Meiryo UI';
+    color: red;
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.set_navbar {
+  opacity: 0.9;
+}
+@media (max-width:768px) {
+    .logo img {
+        height: 30px;
+    }
+}
+
+.header_list {
+    margin: 5px auto; /*中央揃え*/
+    display: table; /*table にすることで中央に*/
+    table-layout: fixed; /*tableの列幅を固定に*/
+    float: none; /*フロートをなしにする*/
+}
+.header_list li {
+    box-sizing: border-box;
+    text-align: center;
+}
+@media (min-width:768px) {
+    .header_list li {
+        border-right: solid #bdbdbd 1px;
+    }
+}
+
+.image_header {
+    width: 100%;
+    height: 300px;
+    display: block;
+    background-size: cover;
+    background-position: center center;
+}
+@media (min-width:768px) {
+    .image_header {
+        height: 400px;
+    }
+}
+@media (min-width:992px) {
+    .image_header {
+        height: 500px;
+    }
+}
+@media (min-width:1200px) {
+    .image_header {
+        height: 650px;
+    }
+}
+
+.set_row {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 15px;
+}
+
+.title {
+    border-bottom: solid #a27860 1px;
+    margin-bottom: 20px;
+
+}
+
+h2 {
+    font-size: 20px;
+    padding-left: 40px;
+    background-image: url("./img-for_portfolio_italy/icon.png");
+    background-repeat: no-repeat;
+    background-position: 15px center;
+}
+.food h2 {
+    font-size: 20px;
+    padding-left: 40px;
+    background-image: url("./img-for_portfolio_italy/icon2.png");
+    background-repeat: no-repeat;
+    background-position: 15px center;
+}
+.nav_list li {
+    background-image: url("./img-for_portfolio_italy/arrow.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 20px;
+    border-bottom: dotted 1px;
+    margin-bottom: 5px;
+}
+
+
+h3 {
+    font-size: 18px;
+}
+
+.set_carousel {
+    padding: 0;
+    margin-bottom: 15px;
+    margin-top: 120px;
+}
+@media (max-width:768px) {
+    .set_carousel {
+        margin-top: 60px;
+    }
+}
+
+.set_modal {
+    margin-bottom: 5px;
+}
+
+.set_next {
+    padding: 0;
+}
+
+.set_footer {
+    border-top: solid gray 1px;
+}
+
+
+ul li:last-child {
+    border: none;
+}
